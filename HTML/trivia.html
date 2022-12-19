@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title> Game 5 </title>
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css"/>
+
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Trivia</h1>
+      <h2 id="timer">TIME LEFT: 30 SECONDS</h2>
+      <h2 id="pickCat">Pick a Category:</h2>
+      <div id="categories">
+        <p>
+        <input type="button" value="Science", onclick="generateScience()">
+        <input type="button" value="History", onclick="generateHistory()">
+        <input type="button" value="Pop Culture", onclick="generatePopCulture()">
+        </p>
+      </div>
+      <div id="question">
+        <p id="display"></p>
+        <input type="button" id="a1" value="", onclick="">
+        <input type="button" id="a2" value="", onclick="">
+        <input type="button" id="a3" value="", onclick="">
+      </div>
+
+      <p id="result"></p>
+      </br>
+      <a id="advance" href="blackjack.html">Advance.</a>
+      <a id="restart" href="../index.html">Restart.</a>
+    </div>
+
+   <script src="../js/script_05.js"></script>
+
+  </body>
+</html>
